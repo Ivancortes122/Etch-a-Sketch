@@ -11,13 +11,12 @@ function createGrid(rows, columns) {
 createGrid(16, 16);
 
 const squares = document.getElementsByClassName("square")[0];
-function hover () {
+function mouseEnter () {
     Array.from(square).forEach((square) => {
-        square.addEventListener('mouseover', () => {
-            square.classList.add('hover');
+        square.addEventListener('mousein', () => {
+            square.classList.add('.hover');
             console.log('hover');
         });
-});
+    });
 }
-
 

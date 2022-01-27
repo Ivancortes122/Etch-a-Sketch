@@ -12,7 +12,18 @@
 
 }
 
-.hover {
-    transition: all 100ms ease-in-out;
-    background-color: blue;
+.square:hover {
+    transition: all 200ms ease-in-out;
+    background-color: skyblue;
+}
+
+#btn {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.clear {
+    height: 4em;
+    width: 10em;
 }
