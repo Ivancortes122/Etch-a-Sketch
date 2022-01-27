@@ -1,0 +1,18 @@
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.square {
+    border: 1px solid black;
+    width: 85px;
+    height: 85px;
+
+}
+
+.hover {
+    transition: all 100ms ease-in-out;
+    background-color: blue;
+}
