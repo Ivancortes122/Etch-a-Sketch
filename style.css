@@ -1,4 +1,5 @@
 #container {
+    max-width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,17 +14,18 @@
 }
 
 .square:hover {
-    transition: all 200ms ease-in-out;
+    transition: all .07s ease-in-out;
     background-color: skyblue;
 }
 
-#btn {
+.clear {
     text-align: center;
     display: flex;
     justify-content: center;
 }
 
-.clear {
+#clearBtn {
     height: 4em;
     width: 10em;
 }
+
